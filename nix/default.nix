@@ -45,9 +45,13 @@ in
 
     cargoLock = {
       inherit lockFile;
-      #outputHashes = {
-      #  "oxiced-0.1.0" = "";
-      #};
+      outputHashes = {
+        "cryoglyph-0.1.0" = "";
+        "dpi-0.1.1" = "";
+        "iced_exdevtools-0.14.0-dev" = "";
+        "iced-0.14.0-dev" = "";
+        #  "oxiced-0.1.0" = "";
+      };
     };
 
     nativeBuildInputs = [
